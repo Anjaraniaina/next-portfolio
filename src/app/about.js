@@ -5,7 +5,7 @@ export default function About() {
         <div className="hero bg-base-200 min-h-screen">
   <div className="hero-content flex-col lg:flex-row">
     <img
-      src="/profile_no_back.png"
+      src="/profile_no_back.png" alt="logo of profile"
       className="max-w-sm rounded-lg shadow-2xl" />
     <div className="pl-5">
       <h1 className="text-5xl font-bold text-center">About me</h1>

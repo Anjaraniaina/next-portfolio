@@ -7,7 +7,7 @@ export default function Project() {
         <div  id="project_one" className="hero bg-base-200 min-h-screen">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
-      src="/foodgen.png"
+      src="/foodgen.png" alt="Logo of foodgen app"
       className="max-w-sm rounded-lg shadow-2xl" />
     <div className="pr-10">
       <h1 className="text-5xl font-bold">Meal Generator</h1>
@@ -31,7 +31,7 @@ export default function Project() {
 <div id="project_two" className="hero bg-base-200 min-h-screen">
   <div className="hero-content flex-col lg:flex-row">
     <img
-      src="/noran_manager.png"
+      src="/noran_manager.png" alt="Logo of Noran Manager app"
       className="max-w-sm rounded-lg shadow-2xl" />
     <div className="pl-10">
       <h1 className="text-5xl font-bold">Noran Manager</h1>
