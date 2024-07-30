@@ -46,6 +46,22 @@ export default function Project() {
     </div>
   </div>
 </div>
+<div  id="project_trois" className="hero bg-base-200 min-h-screen">
+  <div className="hero-content flex-col lg:flex-row-reverse">
+    <img
+      src="/house_guess.jpg" alt="Logo of house and question mark"
+      className="max-w-sm rounded-lg shadow-2xl" />
+    <div className="pr-10">
+      <h1 className="text-5xl font-bold">House Price Prediction</h1>
+      <h2 className="py-6 text-3xl font-bold">Know the price before someone tell you.</h2>
+      <p className="py-6 text-lg font-medium">
+        Made with and hosted by Streamlit.
+        My intro to ETL and building ML model.
+      </p>
+      <button className="btn btn-primary"><a href="https://blank-app-7aw5zswzvb.streamlit.app">Check out</a></button>
+    </div>
+  </div>
+</div>
       </div>
     );
   }
